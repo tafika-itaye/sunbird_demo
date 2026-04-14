@@ -49,3 +49,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+const galleryHost = document.querySelector('[data-gallery]');
+if (galleryHost) {
+  const items = ['Lake Malawi view','Conference setup','Executive room','Dining experience'];
+  galleryHost.innerHTML = items.map(item => `<div class="thumb">${item}</div>`).join('');
+}
+const trustHost = document.querySelector('[data-trust]');
+if (trustHost) {
+  trustHost.innerHTML = ['National brand','Trusted hospitality','Business-ready','Tourism experience'].map(item => `<div class="card"><strong>${item}</strong></div>`).join('');
+}
+const faqHost = document.querySelector('[data-faq]');
+if (faqHost) {
+  faqHost.innerHTML = [
+    ['Do you support inquiries?', 'Yes, the contact and property pages are ready for form-based inquiries.'],
+    ['Can this grow into bookings?', 'Yes, the structure is prepared for booking and payment integration later.']
+  ].map(([q,a]) => `<details><summary>${q}</summary><p>${a}</p></details>`).join('');
+}
