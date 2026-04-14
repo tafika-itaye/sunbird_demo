@@ -1,1 +1,58 @@
-
+{
+  "site": {
+    "name": "Sunbird Tourism PLC",
+    "tagline": "Premium hospitality across Malawi",
+    "analytics": "",
+    "contact": {
+      "email": "reservations@sunbirdmalawi.com",
+      "phone": "+265 1 000 000",
+      "social": {
+        "facebook": "https://facebook.com/",
+        "instagram": "https://instagram.com/",
+        "x": "https://x.com/"
+      }
+    }
+  },
+  "properties": [
+    {
+      "slug": "sunbird-capital",
+      "name": "Sunbird Capital",
+      "location": "Lilongwe",
+      "type": "Business Hotel",
+      "summary": "Corporate stays and meetings."
+    },
+    {
+      "slug": "sunbird-mt-soch",
+      "name": "Sunbird Mount Soche",
+      "location": "Blantyre",
+      "type": "Conference Hotel",
+      "summary": "Events, dining, and premium city hospitality."
+    },
+    {
+      "slug": "sunbird-mzuzu",
+      "name": "Sunbird Mzuzu",
+      "location": "Mzuzu",
+      "type": "City Hotel",
+      "summary": "Northern gateway for business and leisure."
+    }
+  ],
+  "offers": [
+    {
+      "title": "Weekend Escape",
+      "property": "Sunbird Capital",
+      "summary": "Stay and dine package."
+    },
+    {
+      "title": "Conference Bundle",
+      "property": "Sunbird Mount Soche",
+      "summary": "Meetings and accommodation."
+    }
+  ],
+  "news": [
+    {
+      "title": "Sunbird launches seasonal offer",
+      "date": "2026-04-01",
+      "summary": "Sample update for the demo."
+    }
+  ]
+}

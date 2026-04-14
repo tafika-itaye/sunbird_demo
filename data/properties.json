@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "sunbird-capital",
+    "name": "Sunbird Capital",
+    "location": "Lilongwe",
+    "type": "Business Hotel",
+    "summary": "Corporate stays and meetings."
+  },
+  {
+    "slug": "sunbird-mt-soch",
+    "name": "Sunbird Mount Soche",
+    "location": "Blantyre",
+    "type": "Conference Hotel",
+    "summary": "Events, dining, and premium city hospitality."
+  },
+  {
+    "slug": "sunbird-mzuzu",
+    "name": "Sunbird Mzuzu",
+    "location": "Mzuzu",
+    "type": "City Hotel",
+    "summary": "Northern gateway for business and leisure."
+  }
+]
