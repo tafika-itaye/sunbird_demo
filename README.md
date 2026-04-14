@@ -1,5 +1,6 @@
 # Sunbird Tourism PLC Static Demo
 
-- Static GitHub Pages demo.
-- Data-ready for later SQL Server integration.
-- Replace placeholder contact details and imagery before launch.
+- Module-based GitHub Pages demo.
+- JSON content in `data/`.
+- Replace placeholders before production launch.
+- SQL Server upgrade path reserved for the full system.
